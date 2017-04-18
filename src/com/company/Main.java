@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+	SortArray sortArray = new SortArray();
+	System.out.println(new BubbleSort(sortArray.getRandomArray()).sort());
     }
 }
