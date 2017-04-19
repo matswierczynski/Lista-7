@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Created by Mati on 2017-04-18.
  */
-public class SortArray {
+ class SortArray {
     private int [] randomArray;
 
     public SortArray(){
@@ -15,7 +15,7 @@ public class SortArray {
 
     private int getSize(){
         int size=0;
-        while(size<500) {
+        while(size<1) {
             System.out.println("Podaj ilość liczb do wylosowania");
             Scanner scan = new Scanner(System.in);
             if (scan.hasNextInt()) {

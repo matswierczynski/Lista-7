@@ -1,12 +1,11 @@
 package com.company;
 
-import java.lang.reflect.Array;
 
 /**
  * Bubble sort
  */
-public class BubbleSort {
-    private int [] array;
+class BubbleSort {
+    private final int [] array;
     public BubbleSort(int [] _array){
         array = new int[_array.length];
         System.arraycopy(_array,0,array,0,_array.length);
